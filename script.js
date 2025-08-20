@@ -1,8 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('connectBtn').addEventListener('click', () => {
+    alert('Connexion au wallet en cours... (simulation)');
+  });
 
-function connectWallet() {
-    document.getElementById("output").innerText = "✅ Wallet connecté (simulation)";
-}
-
-function stake() {
-    document.getElementById("output").innerText = "💰 Staking de 100 € effectué (simulation)";
-}
+  document.getElementById('stakeBtn').addEventListener('click', () => {
+    alert('100 € stakés ! Revenus passifs activés 🚀');
+  });
+});
